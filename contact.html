@@ -34,7 +34,7 @@
 
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-          <a class="p-2 text-muted" href="#">Acasa</a>
+          <a class="p-2 text-muted" href="index.html">Acasa</a>
           <a class="p-2 text-muted" href="noutati.html">Noutati</a>
           <a class="p-2 text-muted" href="about.html">Despre Lucrare</a>
           <a class="p-2 text-muted" href="about_me.html">Profil Student</a>
@@ -53,32 +53,31 @@
         </div>
       </div>
       <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Featured post</a>
-              </h3>
-              <div class="mb-1 text-muted"></div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+        <div class="col-md-2"></div>
+        <div class="col-md-8 mb-5">
+          <form method="POST" action="">
+            <div class="form-group row">
+              <label for="staticEmail" class="col-sm-2 col-form-label"><b>Email</b></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com">
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Post title</a>
-              </h3>
-              <div class="mb-1 text-muted"></div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
+            <div class="form-group row">
+              <label for="adresa" class="col-sm-2 col-form-label"><b>Adresa</b></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="adresa" placeholder="Adresa">
+              </div>
             </div>
-          </div>
+            <div class="form-group row">
+              <label for="telefon" class="col-sm-2 col-form-label"><b>Telefon</b></label>
+              <div class="col-sm-10">
+                <input type="text" class="form-control" id="telefon" placeholder="Telefon">
+              </div>
+            </div>
+            <button class="btn btn-success float-right">Trimite</button>
+          </form>
         </div>
+        <div class="col-md-2"></div>
       </div>
     </main>
 
